@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @DavidManga254
-- 👀 I’m interested in software engineering,web devolpment and cybersecurity
+- 👀 I’m interested in Data Science,web devolpment and cybersecurity
 - 🌱 I’m currently learning a bachelors degree in computer science at the University of Nairobi
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...phone number +254771843637
