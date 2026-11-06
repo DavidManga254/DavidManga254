@@ -95,10 +95,7 @@ I'm applying this to a log monitoring backend I'm building in Java: Spring Boot,
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-DavidManga254-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidManga254)
-<!-- LinkedIn: replace YOUR-URL, then remove the comment markers
-<a href="YOUR-URL"><img src="https://raw.githubusercontent.com/DavidManga254/DavidManga254/main/assets/linkedin.webp" height="40" alt="LinkedIn" /></a>
--->
-
+<a href="https://www.linkedin.com/in/david-manga-313419234/"><img src="https://raw.githubusercontent.com/DavidManga254/DavidManga254/main/assets/linkedin.webp" height="40" alt="LinkedIn" /></a>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=90&section=footer" width="100%" alt="" />
