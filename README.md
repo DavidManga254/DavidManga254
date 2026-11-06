@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=David%20Manga&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20stack%20developer%20%C2%B7%20Nairobi%2C%20Kenya&descSize=18&descAlignY=60" width="100%" alt="David Manga, full stack developer, Nairobi, Kenya" />
 
 <a href="https://github.com/DavidManga254">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2563EB&center=true&vCenter=true&width=640&lines=React+and+TypeScript+on+the+front;Go+and+Java+on+the+back;Building+retrieval+and+LLM+features+into+real+products;I+write+code+I+can+test+and+explain" alt="Typing animation of what I work on" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2563EB&center=true&vCenter=true&width=900&lines=React+and+TypeScript+on+the+front;Go+and+Java+on+the+back;Building+retrieval+and+LLM+features+into+real+products;I+write+code+I+can+test+and+explain" alt="Typing animation of what I work on" />
 </a>
 
 </div>
@@ -49,31 +49,14 @@ React Native and Wails (Go) fill the mobile and desktop gaps: I've used React Na
 
 More: [instaApp](https://github.com/DavidManga254/instaApp), a React Native chat app on Firebase Cloud Messaging, and [Echo](https://github.com/DavidManga254/Echo), a RAWG.io clone on Laravel and React.
 
-## AI and retrieval (RAG)
+## AI and retrieval
 
-I'm working through a five-phase RAG curriculum and building the labs in Python as I go. It follows the structure of DeepLearning.AI's RAG course: how RAG works, search foundations, vector databases, generation, and running it in production.
+I'm working through a RAG curriculum in Python, building each lab as I go.
 
-**What I've built so far**
-
-- **Retrieval from scratch.** A keyword retriever, then BM25 written by hand and used to rank documents, so I know what the parameters do instead of just calling a library.
-- **Semantic search** with sentence-transformers embeddings over the same passages.
-- **Chunking and context windows.** I split articles into chunks and widen each hit with its neighbours. My first version sent near-duplicate passages to the model: on 25 test queries, 23 had two identical passages. Merging overlapping windows from the same article brought that to 0 of 25 and raised distinct articles per question from 3 to 5, with the source article still found in every query that had one.
-- **Failure tests.** Scripts for the cases where retrieval breaks: synonyms with no shared words, questions the documents can't answer, and queries with zero keyword overlap. Each logs what was retrieved and what the model said.
-- **Data.** The BBC News set (2,225 articles) plus a set of short invented stories.
-- **Vector database.** Started on Weaviate (collections, import, queries) in Python.
-
-**Where it's going**
-
-Hybrid search with rank fusion, cross-encoder reranking, retrieval metrics (precision@k, recall@k, MRR), then evaluation with Ragas, request tracing, prompt-injection defences and cost tracking. After that, agents and tool use: function calling, MCP and multi-step loops.
-
-**Already in real code**
-
-- LLM function calling to turn free text into validated, structured data ([chat-bot-schedular](https://github.com/DavidManga254/chat-bot-schedular)).
-- Claude Code reading a design tool over MCP as part of an automated fix loop ([VRT-system](https://github.com/DavidManga254/VRT-system)).
-
-**Next application**
-
-I'm applying this to a log monitoring backend I'm building in Java: Spring Boot, PostgreSQL, a disk-backed ingest queue, per-service baselines with z-score anomaly detection, incident grouping, and Slack and Discord alerts. The plan is retrieval over logs and incidents so an engineer can ask what changed. That repo is private for now.
+- **Built:** BM25 from scratch, semantic search with embeddings, chunking with context merging, and failure tests for synonyms, unanswerable questions and zero keyword overlap. Started on Weaviate.
+- **Next:** hybrid search and reranking, Ragas evaluation, then agents and tool use.
+- **In real code:** LLM function calling in [chat-bot-schedular](https://github.com/DavidManga254/chat-bot-schedular), and Claude Code over MCP in [VRT-system](https://github.com/DavidManga254/VRT-system).
+- **Applying it to:** a log monitoring backend in Java (private for now).
 
 ## Backend and systems
 
@@ -81,15 +64,6 @@ I'm applying this to a log monitoring backend I'm building in Java: Spring Boot,
 - **Networking:** UDP discovery and TCP handshakes in Go (clipsy), HLS streaming, WebSockets and FCM push in React Native chat apps.
 - **APIs and auth:** NestJS and Laravel APIs with role-separated middleware, Google OAuth, signed httpOnly cookies, encrypted token storage.
 - **Data:** PostgreSQL with Prisma and Flyway, MySQL with Laravel migrations, SQLite in desktop apps.
-
-## Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DavidManga254&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidManga254&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages" />
-
-</div>
 
 ## Get in touch
 
