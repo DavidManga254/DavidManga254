@@ -51,12 +51,13 @@ More: [instaApp](https://github.com/DavidManga254/instaApp), a React Native chat
 
 ## AI and retrieval
 
-I'm working through a RAG curriculum in Python, building each lab as I go.
+I build retrieval systems in Python and put LLMs to work inside real products.
 
-- **Built:** BM25 from scratch, semantic search with embeddings, chunking with context merging, and failure tests for synonyms, unanswerable questions and zero keyword overlap. Started on Weaviate.
-- **Next:** hybrid search and reranking, Ragas evaluation, then agents and tool use.
-- **In real code:** LLM function calling in [chat-bot-schedular](https://github.com/DavidManga254/chat-bot-schedular), and Claude Code over MCP in [VRT-system](https://github.com/DavidManga254/VRT-system).
-- **Applying it to:** a log monitoring backend in Java (private for now).
+- **Retrieval:** BM25 implemented from scratch, semantic search with sentence-transformers, vector search with Weaviate, and chunking with context-window merging.
+- **Reliability:** test harnesses for the cases where retrieval breaks: synonyms with no shared words, unanswerable questions, and zero keyword overlap.
+- **Evaluation:** precision@k, recall@k and MRR for retrieval, hybrid search with rank fusion, cross-encoder reranking, and Ragas for end-to-end RAG scoring.
+- **LLMs in products:** function calling that turns free text into validated structured data ([chat-bot-schedular](https://github.com/DavidManga254/chat-bot-schedular)), and Claude Code driving an automated fix loop over MCP ([VRT-system](https://github.com/DavidManga254/VRT-system)).
+- **Applied to:** a log monitoring backend in Java, private for now.
 
 ## Backend and systems
 
