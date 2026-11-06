@@ -40,6 +40,7 @@ React Native and Wails (Go) fill the mobile and desktop gaps: I've used React Na
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Hala**](https://github.com/DavidManga254/Hala-Voting-System) | Blockchain voting system on Algorand. Each vote is a transaction to a candidate account, with an encrypted voter ID in the note to block double voting. **Won the Algorand competition in Kenya, 2023.** Built with a teammate. | React, Express, Algorand SDK |
 | [**VRT-system**](https://github.com/DavidManga254/VRT-system) | Visual regression pipeline. Pulls design frames from pencil.dev as baselines, screenshots each Storybook story with Playwright, diffs them pixel by pixel, and hands differences to Claude Code over MCP to fix. | Playwright, Storybook, React, Node, MCP |
 | [**Stream-server**](https://github.com/DavidManga254/Stream-server) | Video streaming server. Upload, background FFmpeg transcoding to 360p/480p/720p, adaptive bitrate HLS delivery. A DB poller feeds a worker thread pool. | Java, FFmpeg, HLS, Docker |
 | [**chat-bot-schedular**](https://github.com/DavidManga254/chat-bot-schedular) | Type a sentence, get a Google Calendar event. An LLM function call turns the text into a structured event (time, attendees, recurrence, reminders). | NestJS, OpenAI, Prisma, Next.js |
