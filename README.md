@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=David%20Manga&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20stack%20developer%20%C2%B7%20Nairobi%2C%20Kenya&descSize=18&descAlignY=60" width="100%" alt="David Manga, full stack developer, Nairobi, Kenya" />
 
 <a href="https://github.com/DavidManga254">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2563EB&center=true&vCenter=true&width=640&lines=React+and+TypeScript+on+the+front;Go+and+Java+on+the+back;Learning+RAG+and+building+with+LLMs;I+write+code+I+can+test+and+explain" alt="Typing animation of what I work on" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2563EB&center=true&vCenter=true&width=640&lines=React+and+TypeScript+on+the+front;Go+and+Java+on+the+back;Building+retrieval+and+LLM+features+into+real+products;I+write+code+I+can+test+and+explain" alt="Typing animation of what I work on" />
 </a>
 
 </div>
